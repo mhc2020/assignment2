@@ -1,0 +1,458 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(225, 249, 249);
+}
+
+.main-nav {
+  display: flex;
+  min-height: 50px;
+  align-items: center;
+  margin: 0, auto;
+}
+.gamer-text {
+  font-size: xx-large;
+}
+
+.left-nav {
+  display: flex;
+  width: 50%;
+  margin-left: 50px;
+
+  align-items: center;
+}
+.left-nav img {
+  width: 7%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.gamer-G {
+  color: #ff42a5;
+}
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-right: 50px;
+}
+
+.right-nav a {
+  text-decoration: none;
+}
+
+.follow-us_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 8px;
+}
+
+.follow-inner {
+  top: 0;
+  border-radius: var(--br-5xs);
+  background-color: rgba(11, 2, 35, 0.1);
+  width: 262px;
+  height: 56px;
+}
+
+.socials {
+  display: flex;
+}
+.socials img {
+  width: 70%;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Adjust padding as needed */
+}
+
+.left-nav,
+.right-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for links */
+.right-nav a {
+  margin-right: 10px; /* Adjust as per your requirement */
+}
+
+/* Styles for social icons */
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.socials a {
+  margin-left: 10px; /* Adjust as per your requirement */
+}
+
+.section {
+  display: flex;
+  margin: 50px auto 0;
+  min-height: 50px;
+}
+.left-div {
+  width: 50%;
+}
+
+.right-div {
+  width: 50%;
+}
+.right-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.left-div {
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.play-like {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.goat {
+  top: 60px;
+  left: 0;
+  font-size: 95px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2, #8758f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.button {
+  position: absolute;
+  width: 365px;
+}
+
+.go-rogue-btn,
+.sign-in-btn {
+  position: absolute;
+  top: 0;
+  border-radius: 48px;
+  display: flex;
+  flex-direction: row;
+  padding: 21px 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sign-in-btn {
+  left: 0;
+  background-color: #ff42a5;
+}
+.go-rogue-btn {
+  left: 180px;
+  background-color: #4ec5f7;
+}
+
+.click-instant {
+  display: flex;
+}
+
+.no-download {
+  display: flex;
+}
+
+.support-online {
+  display: flex;
+}
+
+.section-four {
+}
+
+.image-grid {
+  display: flex;
+  justify-content: center;
+}
+.image-grid img {
+  margin-right: 15px;
+}
+
+.funny-videos {
+  background: linear-gradient(180deg, #f948b2, #8758f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.online-games {
+  text-align: center;
+  font-size: 30px;
+}
+
+.description {
+  font-size: 15px;
+  margin-top: -25px;
+  margin-bottom: 30px;
+}
+
+.play-instantly {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.play-instantly-no-downloads-n-parent {
+  width: 50%;
+}
+
+.play-instantly-no-container {
+  text-align: center;
+}
+
+.img-child55 {
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.play-instantly-child {
+  margin: 0;
+  color: #f948b2;
+  font-size: xx-large;
+}
+.no-downloads {
+  margin: 0;
+  font-size: xx-large;
+}
+.play-games-online {
+  text-align: center;
+  margin-top: 20px;
+}
+.rectangle-parent3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 50%;
+  margin-left: auto;
+}
+.img-child4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+}
+
+.img-child5 {
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+.image-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-card img {
+  width: 95%;
+  transition: all 0.3s ease;
+}
+
+.image-card .play-now {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-card:hover img {
+  filter: brightness(50%);
+}
+
+.image-card:hover .play-now {
+  display: flex;
+}
+
+.play-now p {
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+/* Button Set Styles */
+.button-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 20px; /* Adjust as needed */
+  padding: 12px; /* Adjust as needed */
+  font-size: 0.8em; /* Adjust as needed */
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin: 5px; /* Decreased from 10px to reduce the space between buttons */
+  background-color: rgba(248, 246, 247, 0.434);
+}
+
+.icon-button img {
+  margin-right: 5px; /* Adjust as needed */
+  width: 15px; /* Adjust as needed */
+  height: 15px; /* Adjust as needed */
+}
+
+.icon-button:hover {
+  border: 2px solid #ff42a5;
+  color: #f948b2;
+}
+
+.career-section {
+  display: flex;
+  margin-top: 50px;
+  background-color: #f948b2;
+}
+
+.career-left-div {
+  margin-top: 200px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.career-right-div {
+  width: 50%;
+}
+
+.career-right-div img {
+  width: 100%;
+}
+
+.footer {
+  background-color: rgb(6, 1, 19);
+  justify-content: center;
+  text-align: center;
+}
+.footer-gamer-div {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.footer-gamer {
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}
+.footer-gamer-div img {
+  width: 60px;
+  padding-right: 15px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-bottom a {
+  color: rgb(222, 217, 217);
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+.fotter-bottom {
+  color: rgb(221, 209, 209);
+  padding-bottom: 60px;
+}
+
+@media (max-width: 576px) {
+  .main-nav {
+    flex-direction: column;
+  }
+  .left-nav,
+  .right-nav {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .button {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sign-in-wrapper,
+  .go-rogue-wrapper {
+    margin-bottom: 10px;
+  }
+
+  .image-grid {
+    flex-direction: column;
+  }
+  .image-card {
+    margin-bottom: 15px;
+  }
+
+  .section {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  .left-div,
+  .right-div,
+  .career-left-div,
+  .career-right-div {
+    width: 100%;
+  }
+  .right-div img,
+  .career-right-div img {
+    height: auto;
+  }
+
+  .button-set {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .play-instantly {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-links a {
+    padding: 10px 0;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .socials {
+    flex-direction: column;
+    align-items: center;
+  }
+}
